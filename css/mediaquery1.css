@@ -1,0 +1,41 @@
+@media only screen and (max-width: 720px) {
+
+    body{
+        background-color: yellow;
+    }
+    .homeImg1 {
+        margin-left: 46px;
+    }
+
+    .discountImg{
+        width: 180px;
+        height: 150px;
+    }
+    .discountImg1{
+        width: 180px;
+        height: 150px;
+        margin-top: 40px;
+    }
+    .discountImg2{
+        width: 180px;
+        height: 150px;
+    }
+    .main2{
+        height: 74vh;
+    }
+    .copyright{
+        font-size: 10px;
+        height: 80vh;
+        
+    }
+    .p1{
+        padding: 0px 25px;
+    }
+    .copy2{
+        font-size: 13px;
+        font-weight: bolder;
+    }
+
+}
+
+

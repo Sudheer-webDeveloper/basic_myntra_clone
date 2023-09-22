@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: rgba(228, 217, 217, 0.7) url('https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-celestial.png');
+    
+    background-size:cover;
+    background-blend-mode:hue;
+}
+header{
+    position: sticky;  
+    top: 0;
+    background:white;
+    height: 30px;
+}
+.left img{
+    width:32px;
+    height:23px;
+    
+}
+nav{
+    padding-top:4px;
+    font-size: 12px;
+}
+.container{
+    max-width: 100vw;
+    /* background-color: red; */
+    padding: 10px 10px;
+    margin: 13px 0px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.section1{
+    background: rgb(236, 235, 235);
+    height: 150vh;
+    width: 100vw;
+
+}
+.homeImg1{
+    /* padding: 0 110px; */
+    width: 85vw;
+    height:60vh;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: 50px;
+    margin-left: 94px;
+}
+.homeImg2{
+    width:100vw;
+    height: 30vh;
+    margin:10px 0px 0px 5px;
+}
+.homeImg3{
+    width:100vw;
+    height:40vh;
+    margin-top: 30px;
+}
+.section2{
+    background:rgb(236, 235, 235);
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.discountImg{
+    margin-top: 50px;
+    padding:0px 5px ;
+    overflow: hidden;;
+}
+.discountImg1{
+    margin-top: 50px;
+    padding: 0px 5px;
+    overflow: hidden;
+}
+.discountImg2{
+    margin-top: 50px;
+    padding: 0px 5px;
+    overflow: hidden;
+}
+.search{
+    width: 34vw;
+    padding: 7px 17px;
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 5px;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 3px 5px;
+}
+
+.copyright{
+    height: 10vh;
+    text-align: center;
+}
+.copy{
+    margin-top: 10px;
+    padding-top: 20px;
+    background: rgb(236, 235, 235);
+    color: rgb(0, 0, 0);
+    height: 5vh;
+}
+.copy2{
+    font-weight: bolder;
+}
+.copy1{
+    font-weight: bolder;
+    width: 100vw;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    background:rgb(236, 235, 235);
+    color: rgb(0, 0, 0);
+    height: 65vh;
+}
+.p1{
+    padding: 0px 30px;
+}
+

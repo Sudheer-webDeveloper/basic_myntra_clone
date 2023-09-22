@@ -1,0 +1,85 @@
+@media only screen and (max-width: 1170px) {
+
+    body {
+        background-color: red;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+        height: 70px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li {
+        padding: 0 8px;
+        margin: auto;
+
+    }
+
+    .right {
+        margin-top: 12px;
+        
+    }
+    .search {
+        font-size: 7px;
+        width: 34vw;
+        height: 10px;
+        margin: auto;
+    }
+
+    .homeImg1 {
+        /* padding: 0 110px; */
+        width: 85vw;
+        height: 40vh;
+        margin: 5px 50px;
+    }
+    .homeImg2{
+        height: 28vh;
+       
+    }
+    .section1{
+        height: 100vh;
+    }
+
+    .discountImg{
+        width: 220px;
+        height: 200px;
+    }
+
+    .discountImg1{  
+        width: 220px;
+        height: 200px;
+        margin-top: 40px;
+    }
+    .discountImg2{
+        width: 220px;
+        height: 200px;
+        margin-top: 40px;
+    }
+    .main2{
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+    }
+    .copy1{
+        height: 78vh;
+        font-size: 10px;
+    }
+    .p1{
+        padding: 0px 22px;
+    }
+    .copy2{
+        font-size: 13px;
+        font-weight: bolder;
+    }
+
+}
+
+
+

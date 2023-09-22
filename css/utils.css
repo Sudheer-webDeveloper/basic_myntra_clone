@@ -1,0 +1,27 @@
+
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-content{
+    justify-content: center;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.spacebetween{
+    justify-content: space-between;
+    font-size: 12px;
+    
+}
+.semibold{
+    font-weight:bolder;
+}
+.mx-2{
+    margin-left: 12px;
+    margin-right: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
